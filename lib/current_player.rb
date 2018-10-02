@@ -3,8 +3,9 @@ def turn_count(board)
   board.each do |space|
     if space == "X" || space == "O"
       turns += 
-    else
-      return 
+    end 
+  end 
+  return turn
 end
 
 def current_player?(board)

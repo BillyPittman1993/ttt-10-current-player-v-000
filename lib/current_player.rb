@@ -1,4 +1,4 @@
-def turn_count?(board)
+def turn_count(board)
   board = 0 
   if "move_is_met" 
     board += 1 

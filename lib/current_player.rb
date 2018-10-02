@@ -1,5 +1,5 @@
 def turn_count(board)
-  board = 0 
+  turns = 0 
   if "move_is_met" 
     board += 1 
 end

@@ -1,7 +1,7 @@
 def turn_count?(board)
-  board = 0 
+  turn_count = 0 
   if "move_is_met" 
-    board += 1 
+    turn_count += 1 
 end
 
 

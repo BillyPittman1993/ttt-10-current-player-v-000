@@ -1,7 +1,7 @@
 def turn_count(board)
   turns = 0 
-  if "move_is_met" 
-    board += 1 
+  board.each do |space|
+    
 end
 
 def current_player?(board)
